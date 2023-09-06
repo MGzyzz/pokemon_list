@@ -1,7 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
 
 let id = urlParams.get('id');
-Ё
 
 $.ajax({
     url: `https://pokeapi.co/api/v2/pokemon/${id}/`,
