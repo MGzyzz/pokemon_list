@@ -3,6 +3,7 @@ $.ajax({
     method: 'GET',
     data: {},
     success: function(data, status) {
+        console.log(status)
         var pokemonArray = [];
         for (pokemon of data.results) {
             $.ajax({
